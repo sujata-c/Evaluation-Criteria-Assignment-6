@@ -8,7 +8,7 @@ while (originalNum != 0) {
         remainder = originalNum % 10;
 
        result += remainder * remainder * remainder;
-       printf("%d", result);
+
        // removing last digit from the orignal number
        originalNum /= 10;
     }
